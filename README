@@ -1,0 +1,12 @@
+Dependencies:
+pyDNS
+formencode
+DB-API-compliant SQL module
+python-magic
+stlparser.py, from tatlin
+
+apache2.conf:
+<Directory /path/to/Resolution>
+    Options +ExecCGI
+    AddHandler cgi-script .py
+</Directory>
