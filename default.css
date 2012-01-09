@@ -1,0 +1,60 @@
+body
+{
+    font-family:sans-serif;
+}
+
+.description
+{
+    color:green;
+    border-bottom:1px dotted;
+}
+
+.description:hover
+{
+    border-bottom:1px solid;
+}
+
+.error
+{
+    color:red;
+}
+
+div.material
+{
+    margin:2px;
+    border:1px solid #0000ff;
+    height:auto;
+    width:auto;
+    float:left;
+    text-align:center;
+}
+
+div.material img
+{
+    display:inline;
+    margin:3px;
+    border:1px solid #ffffff;
+}
+
+div.material a:hover img
+{
+    border:1px solid #0000ff;
+}
+
+div.option
+{
+    text-align:center;
+    font-weight:normal;
+    width:120px;
+    margin:2px;
+}
+
+div.material_hide
+{
+    display:none;
+}
+
+.bracket
+{
+    clear:both;
+}
